@@ -175,7 +175,7 @@ export const UploadPage: React.FC = () => {
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <span className="font-bold text-sm text-blue-400 flex items-center">
                 <Sparkles className="w-4 h-4 mr-2 animate-spin" />
-                Bhu-Drishti Pipeline Progress
+                Geo Plot Pipeline Progress
               </span>
               <span className="text-xs text-slate-400">Step {currentStep} of 6</span>
             </div>

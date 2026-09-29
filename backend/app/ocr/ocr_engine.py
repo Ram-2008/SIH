@@ -49,7 +49,7 @@ class OCREngine:
                 }
 
         extracted_text = ""
-        engine_used = "Tesseract OCR / OpenCV Engine" if PYTESSERACT_AVAILABLE else "Bhu-Drishti Multilingual OCR Engine"
+        engine_used = "Tesseract OCR / OpenCV Engine" if PYTESSERACT_AVAILABLE else "Geo Plot Multilingual OCR Engine"
         is_demo_fallback = False
 
         if PYTESSERACT_AVAILABLE:

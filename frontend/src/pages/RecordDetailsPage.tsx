@@ -213,7 +213,7 @@ export const RecordDetailsPage: React.FC = () => {
         {/* Digital Stamp & Signatures */}
         <div className="pt-6 border-t-2 border-slate-200 flex justify-between items-end text-xs">
           <div className="space-y-1">
-            <p className="font-bold text-slate-700">Issued by: Bhu-Drishti AI Automated Digitization Engine</p>
+            <p className="font-bold text-slate-700">Issued by: Geo Plot Automated Digitization Engine</p>
             <p className="text-slate-500">Verified by Revenue Officer (Rajesh Sharma)</p>
             <p className="text-[10px] text-slate-400 font-mono">HASH: 9a8f7e6d5c4b3a21</p>
           </div>

@@ -1,4 +1,4 @@
-# BHU-DRISHTI AI
+# Geo Plot
 ### Intelligent Multilingual Land Record Digitization & Validation Platform
 **Smart India Hackathon (SIH) Prototype** | **Team:** The Straw Hats (**Team ID:** 137647)
 
@@ -7,7 +7,7 @@
 ## 🌟 Executive Overview
 Legacy land records across India are predominantly scanned paper documents that suffer from fading, skewing, low resolution, diverse regional languages/scripts, and inconsistent formatting. 
 
-**Bhu-Drishti AI** is an intelligent, end-to-end land record digitization and validation platform designed to automate document ingestion, OpenCV image enhancement, multilingual text extraction, rule-based entity parsing, business validation, confidence scoring, Human-in-the-Loop (HITL) officer review, and GIS cadastral mapping.
+**Geo Plot** is an intelligent, end-to-end land record digitization and validation platform designed to automate document ingestion, OpenCV image enhancement, multilingual text extraction, rule-based entity parsing, business validation, confidence scoring, Human-in-the-Loop (HITL) officer review, and GIS cadastral mapping.
 
 ---
 
@@ -65,7 +65,7 @@ graph TD
 ## 📂 Project Structure
 
 ```
-bhu-drishti-ai/
+geo-plot/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/

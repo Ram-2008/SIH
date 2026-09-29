@@ -39,7 +39,7 @@ export const LoginPage: React.FC = () => {
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 shadow-xl shadow-blue-500/20 mb-4 ring-4 ring-blue-500/20">
           <Landmark className="w-10 h-10 text-white" />
         </div>
-        <h1 className="text-3xl font-extrabold text-white tracking-tight">BHU-DRISHTI AI</h1>
+        <h1 className="text-3xl font-extrabold text-white tracking-tight">Geo Plot</h1>
         <p className="mt-2 text-sm text-blue-300 font-medium max-w-sm mx-auto">
           Intelligent Land Record Digitization & Validation Platform
         </p>

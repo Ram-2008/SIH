@@ -18,7 +18,7 @@ def safe_print(text: str):
 
 class DocumentProcessorService:
     """
-    Complete Pipeline Orchestrator for Bhu-Drishti AI:
+    Complete Pipeline Orchestrator for Geo Plot:
     Document Upload -> Preprocessing -> OCR & Translation -> Entity Extraction ->
     Land Registry Search -> Response Normalization -> Comparison Engine -> Validation -> Audit Log
     """
@@ -266,7 +266,7 @@ class DocumentProcessorService:
         # Step 11: Audit Log
         audit = AuditLog(
             document_id=document_id,
-            user_name="Bhu-Drishti AI Pipeline",
+            user_name="Geo Plot Pipeline",
             action="Multilingual Verification Completed",
             details=f"Language: {detected_lang}. Source: {source_label}. Extracted {len(compared_fields)} fields. Mismatches: {mismatch_count}. Avg Confidence: {avg_confidence}%."
         )

@@ -18,7 +18,7 @@ from app.api.demo import router as demo_router
 
 # Initialize FastAPI App
 app = FastAPI(
-    title="BHU-DRISHTI AI",
+    title="Geo Plot",
     description="Intelligent Multilingual Land Record Digitization & Validation Platform - Smart India Hackathon Prototype",
     version="1.0.0"
 )
@@ -60,7 +60,7 @@ app.include_router(demo_router, prefix="/api")
 @app.get("/")
 def root():
     return {
-        "title": "BHU-DRISHTI AI API Engine",
+        "title": "Geo Plot API Engine",
         "team": "The Straw Hats",
         "team_id": "137647",
         "status": "Online & Ready",

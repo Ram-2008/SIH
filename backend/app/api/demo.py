@@ -11,7 +11,7 @@ router = APIRouter(prefix="/demo", tags=["Demo Workflows"])
 @router.post("/run")
 def run_demo_workflow(db: Session = Depends(get_db)):
     """
-    Executes the full Bhu-Drishti AI automated workflow for hackathon judges:
+    Executes the full Geo Plot automated workflow for hackathon judges:
     1. Upload sample land record document
     2. OpenCV Preprocessing & OCR
     3. Entity Extraction

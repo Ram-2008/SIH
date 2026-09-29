@@ -54,7 +54,7 @@ export const DashboardPage: React.FC = () => {
   if (loading) {
     return (
       <div className="flex items-center justify-center h-64 text-slate-500 font-medium">
-        <Sparkles className="w-6 h-6 animate-spin mr-2 text-blue-600" /> Loading Bhu-Drishti AI Dashboard Analytics...
+        <Sparkles className="w-6 h-6 animate-spin mr-2 text-blue-600" /> Loading Geo Plot Dashboard Analytics...
       </div>
     );
   }
@@ -205,7 +205,7 @@ export const DashboardPage: React.FC = () => {
         <div className="p-5 border-b border-slate-200 flex justify-between items-center">
           <div>
             <h3 className="font-bold text-slate-900 text-base">Recent Land Record Documents</h3>
-            <p className="text-xs text-slate-500">Scanned documents ingested and processed by Bhu-Drishti pipeline</p>
+            <p className="text-xs text-slate-500">Scanned documents ingested and processed by Geo Plot</p>
           </div>
           <Link to="/records" className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center">
             View All Records <ArrowUpRight className="w-3.5 h-3.5 ml-1" />

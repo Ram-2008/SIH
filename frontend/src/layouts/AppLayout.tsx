@@ -66,7 +66,7 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="font-extrabold text-xl tracking-tight text-white">BHU-DRISHTI AI</span>
+                <span className="font-extrabold text-xl tracking-tight text-white">Geo Plot</span>
                 <span className="bg-blue-600/30 text-blue-300 text-xs px-2 py-0.5 rounded border border-blue-500/30 font-semibold">
                   SIH 2024 MVP
                 </span>
@@ -163,7 +163,7 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-500 mt-auto">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span>BHU-DRISHTI AI — Smart India Hackathon Prototype</span>
+          <span>Geo Plot — Smart India Hackathon Prototype</span>
           <span className="text-slate-400">Team: The Straw Hats (ID: 137647) | Govt of India Land Records Modernization</span>
         </div>
       </footer>

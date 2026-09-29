@@ -26,7 +26,7 @@ export const ArchitecturePage: React.FC = () => {
         <div>
           <h1 className="text-xl font-extrabold tracking-tight">Future-Ready Platform Architecture</h1>
           <p className="text-xs text-slate-300 mt-1">
-            Bhu-Drishti AI modular pipeline architecture & enterprise integration roadmap
+            Geo Plot modular pipeline architecture & enterprise integration roadmap
           </p>
         </div>
         <span className="bg-blue-600 text-white text-xs px-3 py-1 rounded-lg font-bold">

@@ -4,7 +4,7 @@ from typing import Dict, List, Any
 class EntityExtractor:
     """
     Rule-based & Regex Entity Extractor for Indian Land Record Documents.
-    Parses OCR text returned from Gemini Vision, Tesseract, or Bhu-Drishti OCR.
+    Parses OCR text returned from Gemini Vision, Tesseract, or Geo Plot OCR.
     """
 
     def extract_entities(self, text: str) -> List[Dict[str, Any]]:

@@ -244,13 +244,13 @@ def seed_database(db: Session):
             ),
             AuditLog(
                 document_id="DOC-101",
-                user_name="Bhu-Drishti AI Pipeline",
+                user_name="Geo Plot Pipeline",
                 action="OpenCV Preprocessing & OCR Completed",
                 details="Applied Deskew (+1.2° correction), Bilateral Filtering, Adaptive Binarization, and Entity Extraction."
             ),
             AuditLog(
                 document_id="DOC-101",
-                user_name="Bhu-Drishti AI Pipeline",
+                user_name="Geo Plot Pipeline",
                 action="Validation Engine Executed",
                 details="Overall Validation Score: 94.0%. 1 Warning generated for low-confidence Khasra Number."
             ),
